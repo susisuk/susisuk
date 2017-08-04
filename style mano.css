@@ -1,0 +1,46 @@
+body {
+  background: url("https://static.pexels.com/photos/158678/garage-door-texture-wooden-wall-panels-158678.jpeg") no-repeat center center;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+#Pato {
+   font-family: 'Josefin Slab', serif;
+   font-weight: 200;
+}
+
+header {
+ background-color: -webkit-linear-gradient(#fff, #000095);
+}
+
+header .row{
+
+}
+
+
+footer .row {
+  display: flex;
+  align-items: center;
+
+}
+
+header h1 {
+  font-weight: 500;
+  margin: 0px;
+  padding: 10px;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header p {
+  padding: 0 20px;
+  padding-top: 15px;
+  margin: 0;
+}
