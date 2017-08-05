@@ -5,7 +5,10 @@ body {
 }
 
 header {
+  z-index: 2
   padding: 20px 0;
+  background-color: rgba(255,255,255,.6);
+  filter: blur(5px);
 }
 
 header .row {
@@ -32,9 +35,10 @@ header p {
 }
 
 .jumbotron {
+  z-index: 1;
   display: flex;
   align-items: center;
-  background: url("https://static.pexels.com/photos/158678/garage-door-texture-wooden-wall-panels-158678.jpeg") no-repeat center center;
+  background: url("img/hill.jpg") no-repeat center center;
   background-size: cover;
   color: #ffffff;
   height: 960px;
@@ -61,6 +65,8 @@ section .row img {
 .col-md-6 {
   margin: 0 0 30px;
 }
+
+
 
 .btn.btn-primary {
   border-radius: 2px;
